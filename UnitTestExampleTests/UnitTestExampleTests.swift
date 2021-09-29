@@ -14,7 +14,7 @@ class UnitTestExampleTests: XCTestCase {
     func testSumOfTwoNumbers() {
        let vc = ViewController()
        let sum = vc.sumOfTwoNumbers(num1: 2, num2: 3)
-       XCTAssertEqual(sum, 3, "sum should be 5")
+       XCTAssertEqual(sum, 5, "sum should be 5")
     }
 
     override func setUpWithError() throws {
