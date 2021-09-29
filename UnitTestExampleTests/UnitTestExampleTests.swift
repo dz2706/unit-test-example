@@ -11,10 +11,10 @@ import XCTest
 
 class UnitTestExampleTests: XCTestCase {
     
-    func testProductOfTwoNumbers() {
+    func testSumOfTwoNumbers() {
        let vc = ViewController()
-       let product = vc.productOfTwoNumbers(num1: 2, num2: 3)
-       XCTAssertEqual(product, 5, "product should be 6")
+       let sum = vc.sumOfTwoNumbers(num1: 2, num2: 3)
+       XCTAssertEqual(sum, 5, "sum should be 5e 5 here")
     }
 
     override func setUpWithError() throws {
